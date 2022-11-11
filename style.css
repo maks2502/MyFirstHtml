@@ -1,0 +1,95 @@
+body {
+    font-family: Arial;
+    background-color: aliceblue;
+    padding: 40px 0px;
+}
+
+h1 {
+    font-size: 30px;
+
+}
+
+h2 {
+    font-size: 20px;
+}
+
+span {
+    color: grey;
+}
+
+.profile-picture {
+    width: 180px;
+    height: 180px;
+    box-shadow: 0px 0px 5px grey;
+}
+
+section,
+header {
+    padding: 10px 60px 20px 60px;
+    background-color: white;
+}
+
+header {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li {
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+.social-media-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.hobby {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+}
+
+.hobby img{
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.hobby li{
+    text-align: center;
+    width: 25%;
+}
+
+.hobby li p{
+    padding: 0 10% 0 10%;
+}
+
+header div {
+    text-align: center;
+}
+
+.rounded-top {
+    border-radius: 40px 40px 0 0;
+}
+
+.rounded-bot {
+    border-radius: 0 0 40px 40px;
+}
+
+.container {
+    box-shadow: 5px 10px 20px grey;
+    border-radius: 40px;
+    width: 960px;
+    margin: 0px auto;
+}
